@@ -71,15 +71,4 @@ cout << "---------------------\n";
  cout << "Average Mark: " << average << endl;
  return 0;
 }
-Output
-Student Grade Analyzer
----------------------
-Name Mark Grade
-Kumar 91 A
-25
-Arun 85 B
-Bala 72 C
-Ravi 65 C
-First student scoring above 80: Kumar
-Total Marks: 313
-Average Mark: 78.25
+
