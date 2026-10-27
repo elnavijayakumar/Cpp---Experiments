@@ -30,8 +30,4 @@ int main()
   s1.display();  
   return 0;
 } 
-Output
-Student object created
-Roll Number: 101
-Name: Arun
-Student object destroyed
+
