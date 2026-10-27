@@ -102,9 +102,5 @@ duration_cast<microseconds>(end - start);
  << stlQueueTime.count() << " microseconds" << endl;
  return 0;
 }
-Sample Output
-Custom Stack Time: 15 microseconds
-STL Stack Time: 25 microseconds
-Custom Queue Time: 18 microseconds
-STL Queue Time: 30 microseconds
+
       
