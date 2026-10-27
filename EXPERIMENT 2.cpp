@@ -63,7 +63,3 @@ ptr = &t;
  cout << "Area of Triangle: " << ptr->area() << endl;
  return 0;
 }
-Output:
-Area of Circle: 78.5
-Area of Rectangle: 24
-Area of Triangle: 40
