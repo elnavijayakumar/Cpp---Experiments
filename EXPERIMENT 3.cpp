@@ -78,18 +78,3 @@ Matrix sum = A + B;
  cout << "All unit tests passed successfully." << endl;
  return 0;
 }
-Output
-Matrix A:
-1 2
-3 4
-15
-Matrix B:
-5 6
-7 8
-Addition of Matrices:
-6 8
-10 12
-Multiplication of Matrices:
-19 22
-43 50
-All unit tests passed successfully
