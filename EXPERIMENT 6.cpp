@@ -66,31 +66,4 @@ int main()
  cout << "\nProgram completed successfully." << endl;
  return 0;
 }
-Output
------ Manual RAII Smart Pointer -----
-Resource acquired
-Resource is being used
-Resource released
-Manual smart pointer destroyed
------ unique_ptr -----
-Resource acquired
-Resource is being used
-Resource released
------ shared_ptr -----
-Resource acquired
-Resource is being used
-Shared Pointer Count: 2
-30
-Resource released
-Program completed successfully.
-Valgrind Command
-First, compile the program with debugging information:
-g++ -g smart_pointer.cpp -o smart_pointer
-Then run Valgrind:
-valgrind --leak-check=full ./smart_pointer
-Sample Valgrind Result
-HEAP SUMMARY:
- in use at exit: 0 bytes in 0 blocks
- total heap usage: ...
-All heap blocks were freed -- no leaks are possible
-ERROR SUMMARY: 0 errors
+
